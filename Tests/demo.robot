@@ -38,6 +38,7 @@ User Navigate to Fiction category and clicks on expected book
     END
     Set Suite Variable  ${expected_book}   xpath=//div[@id='listSearchResult']/div[${j}]/div[3]/div[1]/a
     Click Element  ${expected_book}
+    Log to Console     expected book matches with the required book
 
 Close my Browser
     Close Browser
